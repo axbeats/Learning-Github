@@ -13,6 +13,8 @@
 		E5F409CC27569C0F00E5720C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F409BA27569C0E00E5720C /* ContentView.swift */; };
 		E5F409CD27569C0F00E5720C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F409BB27569C0E00E5720C /* Assets.xcassets */; };
 		E5F409CE27569C0F00E5720C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F409BB27569C0E00E5720C /* Assets.xcassets */; };
+		E5F409D827569FFC00E5720C /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F409D727569FFC00E5720C /* MyModel.swift */; };
+		E5F409D927569FFC00E5720C /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F409D727569FFC00E5720C /* MyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		E5F409C027569C0F00E5720C /* Learning-Github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning-Github.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F409C627569C0F00E5720C /* Learning-Github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning-Github.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F409C827569C0F00E5720C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E5F409D727569FFC00E5720C /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				E5F409B927569C0E00E5720C /* Learning_GithubApp.swift */,
 				E5F409BA27569C0E00E5720C /* ContentView.swift */,
 				E5F409BB27569C0E00E5720C /* Assets.xcassets */,
+				E5F409D727569FFC00E5720C /* MyModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5F409CB27569C0F00E5720C /* ContentView.swift in Sources */,
+				E5F409D827569FFC00E5720C /* MyModel.swift in Sources */,
 				E5F409C927569C0F00E5720C /* Learning_GithubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5F409CC27569C0F00E5720C /* ContentView.swift in Sources */,
+				E5F409D927569FFC00E5720C /* MyModel.swift in Sources */,
 				E5F409CA27569C0F00E5720C /* Learning_GithubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
